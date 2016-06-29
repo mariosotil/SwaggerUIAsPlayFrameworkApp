@@ -37,5 +37,3 @@ dockerCommands := Seq(
   ExecCmd("CMD")
 )
 
-javaOptions in Test += "-Dconfig.resource=test.conf"
-
